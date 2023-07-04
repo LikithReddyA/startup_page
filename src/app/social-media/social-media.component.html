@@ -1,0 +1,9 @@
+<div class="social-media">
+    <div *ngFor="let i of searchEngines">
+        <img
+          [src]="i.path"
+          [alt]="i.name"
+          (click)="goto(i)"
+        />
+    </div>
+</div>

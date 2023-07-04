@@ -1,0 +1,15 @@
+img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.social-media{
+    overflow: auto;
+    scrollbar-width: none;
+    height: 70vh;
+}
+
+.social-media::-webkit-scrollbar{
+    display: none;
+}

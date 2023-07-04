@@ -1,0 +1,46 @@
+.search-container{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+}
+
+.grid-style{
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 7% 92%;
+    grid-gap: 4px;
+    position: relative;
+}
+
+input{
+    border-radius: 15px;
+    background-color: #a5a3a3;
+}
+img{
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-bottom: -8px;
+}
+.dynamicdropdown img{
+    position: relative;
+    z-index: 2;
+}
+
+.search-options{
+    margin: auto;
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    /* right: -14%; */
+    width:auto
+}
+.outerDiv{
+    display:none;
+    position: fixed;
+    z-index: 1;
+    width:100vw;
+    height: 100vh;
+    top: 0px;
+    right: 0px;  
+}

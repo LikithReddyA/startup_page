@@ -1,0 +1,14 @@
+<div class="quick-links">
+  <div *ngFor="let i of object.keys(Quicklinks)">
+    <mat-label>
+      {{ i }}
+    </mat-label>
+    <br>
+    <mat-chip-listbox>
+      <mat-chip *ngFor="let j of Quicklinks[i]" class="quicklink-item" (click)="navigateQuicklink(j)">
+          <img matChipAvatar [src]="j.path" alt="j.name">
+          <span style="cursor: pointer;">{{j.name}}</span>
+      </mat-chip>
+    </mat-chip-listbox>
+  </div>
+</div>

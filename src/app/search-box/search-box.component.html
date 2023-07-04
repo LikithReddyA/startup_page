@@ -1,0 +1,24 @@
+<div class="search-container">
+  <div (mouseover)="hideSearchOptions()" class="outerDiv"></div>
+  <div class="grid-style">
+    <div class="dynamicdropdown">
+        <img
+          [src]="selectedSearchEngine.path"
+          alt="Google"
+          (mouseover)="changeSearchEngine()"
+        />
+        <div class="search-options search-container">
+            <span *ngFor="let i of searchEngines">
+              <img *ngIf="i.name!=selectedSearchEngine.name"
+                [src]="i.path"
+                [alt]="i.name"
+                style="width: 48px; height: 48px; display: inline-block"
+                (click)="selectSearchEngine(i)"
+              />
+            </span>
+          </div>
+    </div>
+    <input type="text" (keyup.enter)="search()" [(ngModel)]="searchQuery" />
+  </div>
+</div>
+

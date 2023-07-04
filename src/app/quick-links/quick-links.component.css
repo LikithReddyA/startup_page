@@ -1,0 +1,23 @@
+.quick-links{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 6vw;
+    padding: 20px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer!important;
+}
+
+.quicklink-item{
+    border: 3px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+mat-chip-listbox{
+    height: fit-content;
+}

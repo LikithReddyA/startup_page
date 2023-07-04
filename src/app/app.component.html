@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="header">
+    <div class="clock-container">
+      <span>
+        {{ time }}
+      </span>
+      <br />
+      {{ date }}
+    </div>
+    <div class="quote-container">
+      <span>
+        {{quote}}
+      </span>
+      <br>
+      {{author}}
+    </div>
+    <img src="../assets/images/zoro copy.png" alt="Profile pic" />
+  </div>
+  <div style="width: 100vw;height: 70vh;display:grid;grid-template-columns: 88% 8%;">
+    <div >
+      <app-search-box></app-search-box>
+      <app-quick-links></app-quick-links>
+    </div>
+    <app-social-media></app-social-media>
+  </div>
+  <router-outlet></router-outlet>
+</div>
