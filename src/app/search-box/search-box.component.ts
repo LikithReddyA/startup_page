@@ -17,10 +17,10 @@ export class SearchBoxComponent implements OnInit {
 
 
   constructor(private root:ActivatedRoute){
-    this.searchEngines.push(new SearchEngine("Google","../../assets/icons/google.png","https://www.google.com/search?q="));
-    this.searchEngines.push(new SearchEngine("Youtube","../../assets/icons/youtube.png","https://www.youtube.com/results?search_query="));
-    this.searchEngines.push(new SearchEngine("PubDev","../../assets/icons/dart.png","https://pub.dev/packages?q="));
-    this.searchEngines.push(new SearchEngine("StackOverFlow","../../assets/icons/stackoverflow.png","https://stackoverflow.com/search?q="));
+    this.searchEngines.push(new SearchEngine("Google","assets/icons/google.png","https://www.google.com/search?q="));
+    this.searchEngines.push(new SearchEngine("Youtube","assets/icons/youtube.png","https://www.youtube.com/results?search_query="));
+    this.searchEngines.push(new SearchEngine("PubDev","assets/icons/dart.png","https://pub.dev/packages?q="));
+    this.searchEngines.push(new SearchEngine("StackOverFlow","assets/icons/stackoverflow.png","https://stackoverflow.com/search?q="));
     this.selectedSearchEngine=this.searchEngines[0];
     this.searchQuery="";
   }

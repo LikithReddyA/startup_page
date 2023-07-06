@@ -41,28 +41,28 @@ export class QuickLinksComponent implements OnInit {
     this.languages.push(
       new SearchEngine(
         'Dart',
-        '../../assets/quicklinks/dart.png',
+        'assets/quicklinks/dart.png',
         'https://www.dart.dev/guides/'
       )
     );
     this.languages.push(
       new SearchEngine(
         'WebDevelopment',
-        '../../assets/quicklinks/w3schools.png',
+        'assets/quicklinks/w3schools.png',
         'https://www.w3schools.com/'
       )
     );
     this.languages.push(
       new SearchEngine(
         'My Sql',
-        '../../assets/quicklinks/mysql.png',
+        'assets/quicklinks/mysql.png',
         'https://www.mysqltutorial.org/'
       )
     );
     this.languages.push(
       new SearchEngine(
         'Sql Server',
-        '../../assets/quicklinks/sqlserver.png',
+        'assets/quicklinks/sqlserver.png',
         'https://www.sqlservertutorial.net/'
       )
     );
@@ -70,35 +70,35 @@ export class QuickLinksComponent implements OnInit {
     this.frameworks.push(
       new SearchEngine(
         'Flutter',
-        '../../assets/quicklinks/flutter.png',
+        'assets/quicklinks/flutter.png',
         'https://docs.flutter.dev'
       )
     );
     this.frameworks.push(
       new SearchEngine(
         'FlutterFire',
-        '../../assets/quicklinks/flutterfire.png',
+        'assets/quicklinks/flutterfire.png',
         'https://firebase.flutter.dev/'
       )
     );
     this.frameworks.push(
       new SearchEngine(
         'React',
-        '../../assets/quicklinks/react.png',
+        'assets/quicklinks/react.png',
         'https://www.react.dev/learn'
       )
     );
     this.frameworks.push(
       new SearchEngine(
         'Angular',
-        '../../assets/quicklinks/angular.png',
+        'assets/quicklinks/angular.png',
         'https://www.angular.io/docs'
       )
     );
     this.frameworks.push(
       new SearchEngine(
         'Playwright',
-        '../../assets/quicklinks/playwright.png',
+        'assets/quicklinks/playwright.png',
         'https://playwright.dev/docs/intro'
       )
     );
@@ -106,28 +106,28 @@ export class QuickLinksComponent implements OnInit {
     this.competitive.push(
       new SearchEngine(
         'Codeforces',
-        '../../assets/quicklinks/codeforces.webp',
+        'assets/quicklinks/codeforces.webp',
         'https://www.codeforces.com/'
       )
     );
     this.competitive.push(
       new SearchEngine(
         'Code Chef',
-        '../../assets/quicklinks/codechef.png',
+        'assets/quicklinks/codechef.png',
         'https://www.codechef.com/'
       )
     );
     this.competitive.push(
       new SearchEngine(
         'LeetCode',
-        '../../assets/quicklinks/leetcode.png',
+        'assets/quicklinks/leetcode.png',
         'https://www.leetcode.com/explore'
       )
     );
     this.competitive.push(
       new SearchEngine(
         'Coding Ninjas',
-        '../../assets/quicklinks/codingninjas.png',
+        'assets/quicklinks/codingninjas.png',
         'https://www.codingninjas.com/'
       )
     );
@@ -135,14 +135,14 @@ export class QuickLinksComponent implements OnInit {
     this.others.push(
       new SearchEngine(
         'Geeks for Geeks',
-        '../../assets/quicklinks/geeksforgeeks.png',
+        'assets/quicklinks/geeksforgeeks.png',
         'https://www.geeksforgeeks.org/'
       )
     );
     this.others.push(
       new SearchEngine(
         'TutorialsPoint',
-        '../../assets/quicklinks/tutorialspoint.png/',
+        'assets/quicklinks/tutorialspoint.png/',
         'https://www.tutorialspoint.com/'
       )
     );
