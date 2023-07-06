@@ -27,14 +27,14 @@ export class QuickLinksComponent implements OnInit {
     this.languages.push(
       new SearchEngine(
         'Python',
-        '../../assets/quicklinks/python.png',
+        'assets/quicklinks/python.png',
         'https://docs.python.org/3/'
       )
     );
     this.languages.push(
       new SearchEngine(
         'Real Python',
-        '../../assets/quicklinks/realpython.png',
+        'assets/quicklinks/realpython.png',
         'https://www.realpython.com/'
       )
     );
