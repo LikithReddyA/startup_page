@@ -13,6 +13,7 @@ import { QuickLinksComponent } from './quick-links/quick-links.component';
 import{MatChipsModule} from "@angular/material/chips";
 import { MatFormFieldModule } from '@angular/material/form-field';
 import{MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     MatChipsModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule
     
   ],
   providers: [

@@ -21,3 +21,6 @@ img{
 mat-chip-listbox{
     height: fit-content;
 }
+mat-label{
+    color: white;
+}
